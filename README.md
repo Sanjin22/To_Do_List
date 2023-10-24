@@ -1,4 +1,4 @@
-![Mostar Stari Most - shutterstock-573585157](https://github.com/Sanjin22/To_Do_List/assets/83376894/292cc699-8c19-4235-be67-1715bd9900bf)# To-Do List Application
+# To-Do List Application
 
 ## Overview
 This is a To-Do List web application that allows you to manage your tasks. You can create two types of lists: one for your daily tasks and another for work-related tasks. You can add, delete, and mark tasks as done. The daily tasks list also displays the current date and day of the week.
