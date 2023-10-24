@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btnDelete {
+  border: 2px solid black;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+header {
+  height: 60px;
+  background-color: orange;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formAdding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header p {
+  cursor: pointer;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-text {
+  text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 70%;
+}
+
+.checkbox:checked + .label-text {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+}
+
+body {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/5595248.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.task {
+  background-color: beige;
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+#novi {
+  cursor: pointer;
+  background-color: orange;
+  padding: 5px;
+  color: white;
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.tekstboks {
+  border: 2px solid black;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navButton {
+  border: 3px solid rgb(111, 73, 4);
+  padding: 5px;
+  background-color: rgb(240, 212, 159);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  appearance: auto;
+  clip-path: circle(48% at 50% 50%);
+  accent-color: orange;
+}
+
+.newTaskContainer {
+  display: flex;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 95, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(230, 70, 0);
+}

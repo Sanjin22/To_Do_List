@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs') %>
+<h1>Work List</h1>
+<form class="newTaskContainer" action="/submitWork" method="POST">
+  <input type="text" name="tekstboks" id="tekstboks" placeholder="Write down a new task" />
+  <button type="submit" id="novi">Add</button>
+</form>
+<div id="taskovi" class="tasksContainer">
+    <% if(locals.taskovi){ %>
+      <% for(let i = 0; i<taskovi.length; ++i){ %>
+        <div class="task">
+            <form class="formAdding" action="/deleteWork" method="POST">
+              <input type="checkbox" class="checkbox" />
+              <p class="label-text"> <%= taskovi[i] %>  </p>
+              <input style="display: none;" name="tekstBrisanje" type="text" value=<%= i %>>
+              <button class="btnDelete">Delete</button>
+            </form>
+          </div>
+     <% } %> 
+    <% } %>
+  </div>
+<%- include('partials/footer.ejs') %>
