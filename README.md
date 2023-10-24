@@ -16,7 +16,7 @@ Before using this project, make sure you have Node.js installed on your system. 
 
 ##### Clone this GitHub repository to your local machine:
 
-git clone https://github.com/yourusername/todo-list-app.git
+git clone https://github.com/Sanjin22/todo-list-app.git
 ##### Navigate to the project directory:
 
 cd todo-list-app
