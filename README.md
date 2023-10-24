@@ -3,7 +3,7 @@
 ## Overview
 This is a To-Do List web application that allows you to manage your tasks. You can create two types of lists: one for your daily tasks and another for work-related tasks. You can add, delete, and mark tasks as done. The daily tasks list also displays the current date and day of the week.
 
-The project is built using HTML, CSS, JavaScript, Node.js, and Express.js. It utilizes the body-parser middleware to extract data from user input and store it on the server.
+The project is built using HTML, CSS, JavaScript, Node.js, Express.js and EJS. It utilizes the body-parser middleware to extract data from user input and store it on the server.
 
 ## Features
 Create two different lists: one for daily tasks and one for work tasks.
