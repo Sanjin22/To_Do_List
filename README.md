@@ -43,10 +43,10 @@ To switch between daily tasks and work tasks, use the navigation at the top.
 Here's a preview of what the application looks like:
 
 Daily Tasks:
-
+<img src="/Screenshots/src1.PNG">
 
 Work Tasks:
-
+<img src="/Screenshots/src2.PNG">
 
 ## Dependencies
 This project uses the following main dependencies:
